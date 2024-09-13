@@ -155,7 +155,7 @@ main{
     gap: 5%;
 }
 
-.messagePop{
+.send{
     
     background-color: rgb(164, 164, 233);
     border: solid 1px black;
@@ -163,6 +163,16 @@ main{
     max-width: 43%;
     margin: 1%; 
     border-radius: 7%;
+}
+
+.recieve{
+    background-color: rgb(164, 164, 233);
+    border: solid 1px black;
+    padding: 1%;
+    max-width: 43%;
+    margin: 1%; 
+    border-radius: 7%;
+    align-self: start;
 }
 
 

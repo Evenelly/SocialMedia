@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>SignIn</title>
 </head>
     <body>
         
-        <header>
+        <header class="mainHeader">
             <div class="headerSpace">
                 <a href="index.html"><p>Home</p></a>
             </div>
             <div class="headerSpace" id="headerSpace2">
                 <a href="chat.html"><p> Chat</p></a>
+                <a href="friends.html"><p>Friends</p></a>
                 <a href="forums.html"><p>Forums</p></a>
                 <a href="signIn.html"><p>Sign in</p></a>
-                <a href="logIn.html"><p>Log in</p></a>
             </div>
         </header>
 
@@ -36,11 +36,17 @@
                     <input>
                 </div>
                 <div id="submit">
-                    <button>Submit</button>
+                    <button onclick="submit(this)">Submit</button>
+                </div>
+                <div id="logIn">
+                    <p>
+                        Do you already have an account? <br>
+                        <a href="logIn.html"><p id="logInButton">Log in</p></a>
+                    </p>
                 </div>
             </div>  
         </div>
 
-
+        <script src="main.js"></script>
     </body>
 </html>
